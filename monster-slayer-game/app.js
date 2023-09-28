@@ -88,4 +88,5 @@ const app = Vue.createApp({
             this.logMessages.unshift(log);
         }
     }
-}).mount('#game')
+})
+app.mount('#game')
